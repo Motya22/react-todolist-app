@@ -1,0 +1,26 @@
+.todo__item td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+
+  &:nth-child(2) {
+    max-width: 150px;
+    word-wrap: break-word;
+  }
+
+  &:nth-child(3) {
+    position: relative;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 14px;
+    resize: none;
+    padding: 5px;
+    outline: none;
+  }
+}
+
+.todo__item.completed {
+  text-decoration: line-through;
+}
